@@ -14,7 +14,7 @@ public class ApplicationClass extends Base {
 	String[][] data = GenericMethod.getData("D:\\\\DataKey.xlsx","Sheet2");	
 	MethodClass mtd=new MethodClass();
 	for(int i=1;i<data.length;i++) {
-		
+		//Making to changes to the class after Release1.1
 		switch(data[i][3]) {
 		case "openBrowser":
 			mtd.OpenBrowser();
